@@ -20,21 +20,16 @@ default: &default
   encoding: unicode
   database: postgresql-polished-14369
   pool: 5
-  username: myapp
-  password: password1
 
 development:
   adapter: postgresql
   encoding: unicode
   database: postgresql-polished-14369
   pool: 5
-  username: myapp
-  password: password1
+
 
 test:
   adapter: postgresql
   encoding: unicode
   database: postgresql-polished-14369
   pool: 5
-  username: myapp
-  password: password1
